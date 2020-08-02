@@ -1,0 +1,400 @@
+a {
+    text-decoration: none;
+}
+/* 스크롤바 */
+::-webkit-scrollbar {
+    width: 15px; /* 세로축 스크롤바 길이 */
+    /* height: 500px; */
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #ece7e7;
+}
+::-webkit-scrollbar-thumb {
+    border: 2px solid #f4a5bb;
+    border-radius: 8px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-button:start {
+    background-color: black;
+    border: 1px solid #f4a5bb; /* Top, Left 방향의 이동버튼 */
+}
+::-webkit-scrollbar-button:end {
+    background-color: black;
+    border: 1px solid #f4a5bb; /* Bottom, Right 방향의 이동버튼 */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+#fixed {
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    overflow: hidden;
+    border-bottom: 1px solid #f4a5bb;
+}
+#mainbtn {
+    margin-top: 27px;
+    font-size: 1.5em;
+    margin-left: 100px;
+    /* background: linear-gradient(135deg, #d86d66 0%, #7fd8e0 100%); */
+    font-weight: bold;
+    background-color: #f4a5bb;
+
+    padding: 10px 15px;
+    color: #13ebdc;
+    border: 1px solid #13ebdc;
+    border-radius: 10px;
+    text-decoration: none;
+
+    float: left;
+    outline: none;
+}
+
+.btn {
+    font-size: 1.5em;
+    border: 0px;
+    float: right;
+    margin-right: 70px;
+    background-color: black;
+    margin-top: 35px;
+    outline: none;
+    color: #edf2f5;
+    font-weight: bold;
+}
+.btn:after {
+    content: "";
+    display: block;
+    width: 30px;
+    border-bottom: 2px solid #f4a5bb;
+    margin: 0px auto;
+    padding: 4px;
+}
+#mainbtn:hover {
+    color: #f4a5bb;
+    text-shadow: 2px 2px black;
+    background-color: black;
+    border: 1px solid #f4a5bb;
+}
+
+#fixed button:hover {
+    cursor: pointer;
+    color: black;
+    text-shadow: -1.5px 0 #f4a5bb, 0 1.5px #f4a5bb, 1.5px 0 #f4a5bb,
+        0 -1.5px #f4a5bb;
+}
+#header {
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+
+    background: linear-gradient(to bottom, #000000, hsl(0, 39%, 85%));
+}
+.maintitle {
+    font-size: 6.8em;
+    color: black;
+    text-shadow: 2px 2px #f4a5bb;
+    position: relative;
+    top: 300px;
+}
+
+#content {
+    height: 1800px;
+}
+#footer {
+    padding-bottom: 105px;
+    background-color: black;
+    clear: both;
+    text-align: center;
+    padding-top: 155px;
+    color: white;
+}
+#subtitle {
+    font-size: 5.3em;
+    position: relative;
+    top: 400px;
+    font-weight: bold;
+    color: #13ebdc;
+    text-shadow: 3px 3px #f4a5bb;
+}
+.title {
+    width: fit-content;
+    font-size: 4.5em;
+    text-shadow: -2.5px 0 #f4a5bb, 0 2.5px #f4a5bb, 2.5px 0 #f4a5bb,
+        0 -2.5px #f4a5bb;
+    /* text-shadow: 2px 2px gray; */
+    display: inline-block;
+    color: black;
+}
+
+#titletxt {
+    float: left;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.title:after {
+    content: "";
+    display: block;
+    width: 100px;
+
+    border-bottom: 3px solid #f4a5bb;
+    margin: 0px auto;
+    padding: 7px;
+}
+#text {
+    width: 1040px;
+    display: inline-block;
+    margin-left: 300px;
+    font-weight: bold;
+}
+#text div:first-child {
+    font-size: 3.5em;
+    height: 70px;
+}
+#text div:last-child {
+    font-size: 1.5em;
+    margin-top: 50px;
+    font-weight: normal;
+}
+#about {
+    background-color: black;
+    color: white;
+    padding: 350px 100px;
+}
+#skills {
+    height: 1200px;
+
+    background-repeat: no-repeat;
+    background-image: url(images/1.png);
+    background-size: cover;
+
+    background-attachment: fixed;
+    text-align: center;
+    background-position: top;
+}
+#skillstxt {
+    margin-top: 120px;
+}
+#skillsimg {
+    margin-top: -30px;
+}
+#skillsimg img {
+    width: 130px;
+}
+#skillsimg table {
+    margin: 0px auto;
+    border-spacing: 180px;
+}
+#skillsimg td {
+    border: 5px solid pink;
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+}
+#skillsimg td:hover {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#project {
+    text-align: center;
+    padding-top: 120px;
+
+    width: 100%;
+    float: left;
+}
+.projectbox {
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    width: 600px;
+    margin: 0px 50px;
+    height: 600px;
+    float: left;
+}
+.projectbox:nth-child(2n-1) {
+    margin-left: 0px;
+}
+.projectbox:nth-of-type(2) {
+    clear: both;
+    margin-left: 400px;
+}
+.projectbox:nth-of-type(4) {
+    margin-left: 400px;
+}
+.projectbox:nth-child(2),
+.projectbox:nth-child(3) {
+    margin-top: 100px;
+}
+.projectbox:nth-child(4),
+.projectbox:nth-child(5) {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+#projecttxt {
+    float: left;
+    padding-left: 44.4%;
+}
+#box1 {
+    position: relative;
+    background-size: cover;
+    background-image: url(/images/쌍용교육센터.png);
+}
+#box1::after {
+    background-size: cover;
+
+    background-image: url(/images/쌍용교육센터.png);
+    opacity: 0.3 !important;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+#box2 {
+    position: relative;
+    background-size: cover;
+    background-image: url(/images/쌍신사.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box2::after {
+    background-image: url(/images/쌍신사.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3 !important;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+#box3 {
+    position: relative;
+    background-size: cover;
+    background-image: url(/images/찬방찬방.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box3::after {
+    background-position: center;
+    background-image: url(/images/찬방찬방.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3 !important;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+#box4 {
+    position: relative;
+    background-size: cover;
+    background-image: url(/images/포트폴리오.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#box4::after {
+    background-image: url(/images/포트폴리오.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3 !important;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+.boxtitle {
+    margin-top: 130px;
+    font-size: 5em;
+    z-index: 2;
+    color: #13ebdc;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 40px;
+}
+.boxtxt {
+    margin: 0px auto;
+
+    font-size: 1.7em;
+}
+.boxbtn {
+    margin-top: 65px;
+}
+.boxbtn button {
+    padding: 15px;
+    border-radius: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 3px solid black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.boxbtn button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: pink;
+}
+#innerbox1 {
+    display: none;
+}
+#innerbox2 {
+    display: none;
+}
+#innerbox3 {
+    display: none;
+}
+#innerbox4 {
+    display: none;
+}
+.contact {
+    /* text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue; */
+    text-align: left;
+    color: #13ebdc;
+    padding: 30px;
+    width: 1000px;
+    position: relative;
+    left: 26%;
+    vertical-align: middle;
+}
+.contact span:first-child {
+    font-size: 2.5em;
+}
+.contact span:last-child {
+    font-size: 1.8em;
+    float: right;
+    text-align: right;
+    margin-top: 8px;
+}
+#contactbtn {
+    margin-bottom: 100px;
+}
+#copyright {
+    margin-top: 100px;
+    font-size: 1.2em;
+    color: #bbbbbb;
+    font-weight: normal;
+}

@@ -174,7 +174,7 @@ body {
     height: 1200px;
 
     background-repeat: no-repeat;
-    background-image: url(images/1.png);
+    background-image: url(/images/1.png);
     background-size: cover;
 
     background-attachment: fixed;

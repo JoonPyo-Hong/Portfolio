@@ -97,7 +97,7 @@ body {
     width: 100%;
     text-align: center;
 
-    background: linear-gradient(to bottom, #000000, hsl(0, 39%, 85%));
+    background: linear-gradient(to bottom, #000000, #a19498);
 }
 .maintitle {
     font-size: 6.8em;

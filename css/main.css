@@ -174,7 +174,7 @@ body {
     height: 1200px;
 
     background-repeat: no-repeat;
-    background-image: url(/images/1.png);
+    background-image: url(./images/1.png);
     background-size: cover;
 
     background-attachment: fixed;
@@ -246,12 +246,12 @@ body {
 #box1 {
     position: relative;
     background-size: cover;
-    background-image: url(/images/쌍용교육센터.png);
+    background-image: url(./images/쌍용교육센터.png);
 }
 #box1::after {
     background-size: cover;
 
-    background-image: url(/images/쌍용교육센터.png);
+    background-image: url(./images/쌍용교육센터.png);
     opacity: 0.3 !important;
     top: 0;
     left: 0;
@@ -264,12 +264,12 @@ body {
 #box2 {
     position: relative;
     background-size: cover;
-    background-image: url(/images/쌍신사.png);
+    background-image: url(./images/쌍신사.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 #box2::after {
-    background-image: url(/images/쌍신사.png);
+    background-image: url(./images/쌍신사.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,13 +286,13 @@ body {
 #box3 {
     position: relative;
     background-size: cover;
-    background-image: url(/images/찬방찬방.png);
+    background-image: url(./images/찬방찬방.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 #box3::after {
     background-position: center;
-    background-image: url(/images/찬방찬방.png);
+    background-image: url(./images/찬방찬방.png);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.3 !important;
@@ -308,12 +308,12 @@ body {
 #box4 {
     position: relative;
     background-size: cover;
-    background-image: url(/images/포트폴리오.png);
+    background-image: url(./images/포트폴리오.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 #box4::after {
-    background-image: url(/images/포트폴리오.png);
+    background-image: url(./images/포트폴리오.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

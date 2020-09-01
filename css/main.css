@@ -48,7 +48,7 @@ body {
     margin-left: 100px;
     /* background: linear-gradient(135deg, #d86d66 0%, #7fd8e0 100%); */
     font-weight: bold;
-    background-color: #f4a5bb;
+    background-color: #271017;
 
     padding: 10px 15px;
     color: #13ebdc;
@@ -97,7 +97,7 @@ body {
     width: 100%;
     text-align: center;
 
-    background: linear-gradient(to bottom, #000000, #a19498);
+    background: linear-gradient(to bottom, #000000, #f1eff0);
 }
 .maintitle {
     font-size: 6.8em;
